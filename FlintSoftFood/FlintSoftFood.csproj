@@ -12,10 +12,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Data\" />
-  </ItemGroup>
-
-  <ItemGroup>
+    <ProjectReference Include="..\FlintSoftFood.Components\FlintSoftFood.Components.csproj" />
     <ProjectReference Include="..\FlintSoftFood.Contracts\FlintSoftFood.Contracts.csproj" />
     <ProjectReference Include="..\FlintSoftFood.DAL\FlintSoftFood.DAL.csproj" />
   </ItemGroup>
